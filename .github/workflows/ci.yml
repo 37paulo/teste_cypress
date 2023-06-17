@@ -1,5 +1,6 @@
 name: tests-ci
 on: [push]
+permissions: read-all
 jobs:
   cypress-electron-tests:
     runs-on: ubuntu-latest
