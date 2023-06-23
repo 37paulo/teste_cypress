@@ -9,6 +9,7 @@ jobs:
       - uses: cypress-io/github-action@v5
         with:
           browser: chrome
+          headed: true
 
   firefox:
     runs-on: ubuntu-22.04
@@ -18,4 +19,5 @@ jobs:
       - uses: cypress-io/github-action@v5
         with:
           browser: firefox
+          headed: true
 
